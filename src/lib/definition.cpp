@@ -360,10 +360,6 @@ bool DefinitionData::load(OnlyKeywords onlyKeywords)
         else if (reader.name() == QLatin1String("general")) {
             loadGeneral(reader);
         }
-
-        else if (reader.name() == QLatin1String("spellchecking")) {
-            loadSpellchecking(reader);
-        }
     }
 
     for (auto &kw : keywordLists) {
@@ -693,6 +689,8 @@ void DefinitionData::loadGeneral(QXmlStreamReader &reader)
                 loadFoldingIgnoreList(reader);
             } else if (reader.name() == QLatin1String("comments")) {
                 loadComments(reader);
+            } else if (reader.name() == QLatin1String("spellchecking")) {
+                loadSpellchecking(reader);
             } else {
                 reader.skipCurrentElement();
             }

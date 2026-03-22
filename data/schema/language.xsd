@@ -129,7 +129,6 @@
       <xs:sequence>
         <xs:element ref="highlighting"/>
         <xs:element minOccurs="0" ref="general"/>
-        <xs:element minOccurs="0" ref="spellchecking"/>
       </xs:sequence>
       <xs:attribute name="name" use="required"/>
       <xs:attribute name="alternativeNames"/>
@@ -157,6 +156,7 @@
         <xs:element ref="comments"/>
         <xs:element ref="keywords"/>
         <xs:element ref="emptyLines"/>
+        <xs:element ref="spellchecking"/>
       </xs:choice>
     </xs:complexType>
   </xs:element>
