@@ -986,6 +986,13 @@ msgctxt "Language|"
 msgid "Pike"
 msgstr "بايك"
 
+#, fuzzy
+#| msgctxt "Language Section|"
+#| msgid "Assembler"
+msgctxt "Language|"
+msgid "PIO Assembler"
+msgstr "لغة التّجميع"
+
 msgctxt "Language|"
 msgid "PL/I"
 msgstr "PL/I"

@@ -1315,6 +1315,13 @@ msgctxt "Language|"
 msgid "Pike"
 msgstr ""
 
+#, fuzzy
+#| msgctxt "Language Section"
+#| msgid "Assembler"
+msgctxt "Language|"
+msgid "PIO Assembler"
+msgstr "ภาษาแอสเซมเบลอร์"
+
 msgctxt "Language|"
 msgid "PL/I"
 msgstr ""

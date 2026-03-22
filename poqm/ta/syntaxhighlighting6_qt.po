@@ -1313,6 +1313,13 @@ msgstr ""
 "_: Language\n"
 "பைக்"
 
+#, fuzzy
+msgctxt "Language|"
+msgid "PIO Assembler"
+msgstr ""
+"_: Language Section\n"
+"சேர்ப்பவர்"
+
 msgctxt "Language|"
 msgid "PL/I"
 msgstr ""

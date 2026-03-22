@@ -1198,6 +1198,11 @@ msgctxt "Language|"
 msgid "Pike"
 msgstr "Pike"
 
+#, fuzzy
+msgctxt "Language|"
+msgid "PIO Assembler"
+msgstr "Games"
+
 msgctxt "Language|"
 msgid "PL/I"
 msgstr ""

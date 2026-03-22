@@ -1072,6 +1072,11 @@ msgctxt "Language|"
 msgid "Pike"
 msgstr ""
 
+#, fuzzy
+msgctxt "Language|"
+msgid "PIO Assembler"
+msgstr "അസ്സംബ്ലര്‍"
+
 msgctxt "Language|"
 msgid "PL/I"
 msgstr ""
