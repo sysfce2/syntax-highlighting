@@ -12,8 +12,8 @@
           extensions="*.gn;*.gni;.gn"
           mimetype="text/x-gn"
           priority="5"
-          license="LGPLv2+"
-          author="">
+          license="MIT"
+          author="BogDan Vatra (bogdan@kde.org)">
 
   <highlighting>
 
