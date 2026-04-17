@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE language>
-<language name="IATA SSIM" version="1" kateversion="5.0" section="Other" extensions="*.ssim" author="Volker Krause (vkrause@kde.org)" license="MIT">
+<language name="IATA SSIM" version="2" kateversion="5.0" section="Other" extensions="*.ssim" author="Volker Krause (vkrause@kde.org)" license="MIT">
     <highlighting>
         <contexts>
             <context name="Normal" attribute="Normal Text" lineEndContext="#stay">
@@ -24,8 +24,8 @@
             <context name="Header" attribute="Header" lineEndContext="#pop">
             </context>
             <context name="FlightLeg" attribute="Normal Text" lineEndContext="#pop">
-                <RegExpr String="[A-Z ][A-Z]{2}" column="1" attribute="Flight Number"/>
-                <RegExpr String="[\d ]{4}\d" column="5" attribute="Flight Number"/>
+                <RegExpr String="[A-Z]{2}[ A-Z][ \d]{4}" column="2" attribute="Flight Number"/>
+                <RegExpr String="\d\d" column="11" attribute="Leg Sequence"/>
                 <RegExpr String="\d\d\S\S\S\d\d" column="14" attribute="Departure Time"/>
                 <RegExpr String="\d\d\S\S\S\d\d" column="21" attribute="Arrival Time"/>
                 <RegExpr String="[A-Z]{3}" column="36" attribute="Departure Airport"/>
@@ -51,6 +51,7 @@
             <itemData name="Departure Airport"      defStyleNum="dsVariable" spellChecking="false"/>
             <itemData name="Arrival Airport"        defStyleNum="dsFunction" spellChecking="false"/>
             <itemData name="Flight Number"          defStyleNum="dsOperator" spellChecking="false"/>
+            <itemData name="Leg Sequence"           defStyleNum="dsComment" spellChecking="false"/>
             <itemData name="Aircraft"               defStyleNum="dsSpecialString" spellChecking="false"/>
             <itemData name="Aircraft Configuration" defStyleNum="dsComment" spellChecking="false"/>
             <itemData name="Header"                 defStyleNum="dsPreprocessor" spellChecking="false"/>
