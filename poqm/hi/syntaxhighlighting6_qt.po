@@ -1557,6 +1557,10 @@ msgid "SQL"
 msgstr "एसक्यूएल"
 
 msgctxt "Language|"
+msgid "IATA SSIM"
+msgstr ""
+
+msgctxt "Language|"
 msgid "Stan"
 msgstr ""
 
