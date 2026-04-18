@@ -19,7 +19,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-04-05 08:42+0300\n"
+"PO-Revision-Date: 2026-04-17 15:49+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -1249,7 +1249,7 @@ msgstr "SQL"
 
 msgctxt "Language|"
 msgid "IATA SSIM"
-msgstr ""
+msgstr "IATA SSIM"
 
 msgctxt "Language|"
 msgid "Stan"
